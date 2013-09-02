@@ -58,6 +58,7 @@ DEFAULTS = {
     'adhocracy.session.implementation': 'beaker',
     'adhocracy.set_display_name_on_register': False,
     'adhocracy.shibboleth.display_name.function': None,
+    'adhocracy.shibboleth.display_name.unique': False,
     'adhocracy.shibboleth.locale.attribute': None,
     'adhocracy.shibboleth.register_form': True,
 
