@@ -14,7 +14,6 @@
     <h2>${_(u'Edit &ldquo;%s&rdquo;') % c.proposal.title|n}</h2>
     <hr />
 
-    <form name="edit_proposal" class="inplace" method="POST" action="${h.entity_url(c.proposal)}">
     <form name="edit_proposal" class="inplace" method="POST" action="${h.entity_url(c.proposal)}" accept-charset="utf-8" enctype="multipart/form-data">
         ${h.field_token()|n}
         <input type="hidden" name="_method" value="PUT" />
